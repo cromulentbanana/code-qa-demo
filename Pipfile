@@ -1,0 +1,21 @@
+[dev-packages]
+black = "*"
+pre-commit = "*"
+
+[packages]
+ipython = "*"
+jupyterlab = "*"
+matplotlib = "*"
+pandas = "*"
+requests = "*"
+
+[pipenv]
+allow_prereleases = true
+
+[requires]
+python_version = "3.8"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
